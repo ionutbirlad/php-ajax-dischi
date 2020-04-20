@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.3/handlebars.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.3/handlebars.min.js"></script>
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="public/css/style.css">
     <!-- <script src="https://kit.fontawesome.com/80a8b5f4b8.js" crossorigin="anonymous"></script> -->
@@ -52,11 +52,22 @@
         </div>
         <div class="row cards">
 
-          
+
+        </div>
+        <div class="row metodo">
+          <a href="http://localhost:8889/Esercizi_Boolean/20-04-2020/php-ajax-dischi/index.php">Passa a metodo PHP only</a>
         </div>
       </div>
     </main>
 
+    <script id="card-template" type="text/x-handlebars-template">
+      <div class="card">
+        <div class="cover"><img src="{{cover}}" alt=""></div>
+        <div class="album"><span class="text">{{album}}</span></div>
+        <div class="artist"><span class="text">{{artist}}</span></div>
+        <div class="year"><span class="text">{{year}}</span></div>
+      </div>
+    </script>
 
     <script src="js/main.js" charset="utf-8"></script>
   </body>
