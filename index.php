@@ -24,6 +24,39 @@
   </head>
   <body>
 
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="#">
+            <img src="img/spotify.svg" alt="">
+          </a>
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Genres</a></li>
+            <li><a href="#">New releases</a></li>
+            <li><a href="#">About us</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row title">
+          <h2>New releases</h2>
+        </div>
+        <div class="row cards">
+          <div class="card">musica</div>
+          <div class="card">musica</div>
+          <div class="card">musica</div>
+          <div class="card">musica</div>
+        </div>
+      </div>
+    </main>
+
 
     <script src="js/main.js" charset="utf-8"></script>
   </body>

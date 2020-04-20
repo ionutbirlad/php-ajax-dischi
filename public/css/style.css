@@ -21,9 +21,66 @@
 
 /*HEADER*/
 
+header {
+  height: 70px;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: lightblue;
+  color: #000000;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container .logo {
+  height: 100%;
+}
+
+header .container .logo img {
+  width: 50px;
+}
+
+/*MENU*/
+
+.menu ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /*MAIN*/
 
+main {
+  margin-top: 70px;
+  padding: 50px 0;
+}
+
+main .container .row.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+
 /*CARD*/
+
+.card {
+  width: 150px;
+  height: 230px;
+  background: red;
+}
 
 /*FOOTER*/
 
