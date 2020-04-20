@@ -44,15 +44,49 @@
     </header>
 
     <main>
+      <?php include 'data.php'; ?>
+
       <div class="container">
         <div class="row title">
           <h2>New releases</h2>
         </div>
         <div class="row cards">
+
+          <?php foreach ($albums as $key => $album) { ?>
+            <div class="card">
+              <div class="cover"><img src="<?php echo $album['cover']; ?>" alt=""></div>
+              <div class="album"><span class="text"><?php echo $album['title']; ?></span></div>
+              <div class="artist"><span class="text"><?php echo $album['artist']; ?></span></div>
+              <div class="year"><span class="text"><?php echo $album['year']; ?></span></div>
+            </div>
+          <?php } ?>
+
+          <!-- <div class="card">
+            <div class="cover">
+              <img src="" alt="">
+            </div>
+
+            <div class="album">
+              <span class="text">
+                prova
+              </span>
+            </div>
+
+            <div class="artist">
+              <span class="text">
+                prova
+              </span>
+            </div>
+
+            <div class="year">
+              <span class="text">
+                1998
+              </span>
+            </div>
+          </div>
           <div class="card">musica</div>
           <div class="card">musica</div>
-          <div class="card">musica</div>
-          <div class="card">musica</div>
+          <div class="card">musica</div> -->
         </div>
       </div>
     </main>
