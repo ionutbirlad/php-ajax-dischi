@@ -52,19 +52,7 @@
         </div>
         <div class="row cards">
 
-          <?php foreach ($albums as $key => $album) { ?>
-            <div class="card">
-              <div class="cover"><img src="<?php echo $album['cover']; ?>" alt=""></div>
-              <div class="album"><span class="text"><?php echo $album['title']; ?></span></div>
-              <div class="artist"><span class="text"><?php echo $album['artist']; ?></span></div>
-              <div class="year"><span class="text"><?php echo $album['year']; ?></span></div>
-            </div>
-          <?php } ?>
-
-        </div>
-
-        <div class="row metodo">
-          <a href="http://localhost:8889/Esercizi_Boolean/20-04-2020/php-ajax-dischi/index_2.php">Passa a metodo AJAX</a>
+          
         </div>
       </div>
     </main>
